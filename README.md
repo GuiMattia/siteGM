@@ -1,30 +1,21 @@
-# fernandev
+# Carrinho de Compras com React JS
 
-**Se você curtir esse conteúdo, deixa uma STAR aí nesse repo,** porque isso me motiva a trazer mais conteúdos desse gênero.
+Este é um projeto de carrinho de compras desenvolvido com React JS. Ele permite listar produtos na tela, buscar produtos consumindo a API do Mercado Livre, adicionar produtos e remover produtos do carrinho.
 
-## React Interview Challenge #06
+## Funcionalidades
 
-E aí dev, tudo bem? Trouxe pra você mais um desafio de entrevista para que você possa treinar em casa e aprimorar suas habilidades.
+- Listagem de produtos: exibe uma lista de produtos obtidos da API do Mercado Livre.
+- Busca de produtos: permite pesquisar produtos com base em palavras-chave, consumindo a API do Mercado Livre para obter os resultados.
+- Adição de produtos ao carrinho: permite adicionar produtos ao carrinho de compras.
+- Remoção de produtos do carrinho: possibilita remover produtos do carrinho de compras.
 
-Nosso desafio da vez é criar um carrinho de compras funcional.
+## Tecnologias utilizadas
 
-Siga as instruções dentro do arquivo App.jsx e bora codar!
+- React JS: biblioteca JavaScript para construção de interfaces de usuário.
+- HTML5: linguagem de marcação para estruturar o conteúdo da aplicação.
+- CSS3: linguagem de estilo para estilizar a interface do usuário.
+- API do Mercado Livre: utilizada para obter dados de produtos.
 
-## Objetivos
+## Playlist no Youtube
 
-Criar um carrinho de compras totalmente interativo. O usuário deve poder:
-
-- adicionar um novo produto
-- remover um produto
-- alterar a quantidade
-- a quantidade não pode ser menor que 01
-- calcular soma total do preço dos produtos inseridos de acordo com suas quantidades
-- FUNCIONALIDADE EXTRA: aplicação de cupom de desconto
-
-## Branch com solução
-
-Subirei uma branch de nome `solution` com a minha resolução do desafio para que você possa utilizar para estudos ou queira comparar com a sua solução.
-
-## Resolução do desafio
-
-em breve...
+Se você não acompanhou a criação desse projeto, dá uma conferida [aqui](https://www.youtube.com/playlist?list=PLdtmpu_1ITQKuHMG4s0wUMa55OdsYeWw0).
