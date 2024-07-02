@@ -1,249 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="icon" href="images/logoo.png" type="image/png">
-    <title>Blue Store</title>
-    <link rel="stylesheet" href="style/global.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+
+    <meta charset="utf-8" />
+    <title>Campanha de phishing</title>
+    <link href="global005b.css?v=1.7aabcd343" rel="stylesheet" media="screen" />
   </head>
+  <style>
+    .centralizado {
+      display: flex;
+      display: -webkit-flex; /* Garante compatibilidade com navegador Safari. */
+
+      justify-content: center;
+      align-items: center;
+    }
+
+    .button {
+      background-color: #145a8d; /* Green */
+      border: none;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      border-radius: 8px;
+      float: right;
+    }
+    .button:hover {
+      box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+        0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    a:link {
+      text-decoration: none;
+      color: blue;
+    }
+
+    a:visited {
+      text-decoration: none;
+      color: blue;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      color: blue;
+    }
+
+    a:active {
+      text-decoration: underline;
+      color: blue;
+    }
+  </style>
   <body>
-    <div class="navbar">
-      <div class="header-inner-content">
-        <h1 class="logo">BLUE<span>STORE</span></h1>
-        <nav>
-          <ul>
-            <li>Home</li>
-            <li>Produtos</li>
-            <li>Sobre</li>
-            <li>Contato</li>
-            <li>Conta</li>
-          </ul>
-        </nav>
-        <div class="nav-icon-container">
-          <img src="/images/cart.png" />
-          <img src="/images/menu.png" class="menu-button"/>
-        </div>
-      </div>
-    </div>
     <header>
-      <div class="header-inner-content">
-        <div class="header-bottom-side">
-          <div class="header-bottom-side-left">
-            <h2>De um novo estilo ao seu trabalho!</h2>
-            <p>
-              Sucesso nem sempre tem haver com grandreza. Tem haver com a
-              consistencia. Trabalho duro consistente supera o sucesso, a
-              grandeza virá.
-            </p>
-            <button>Ver Agora &#8594</button>
-          </div>
-          <div class="header-bottom-sider-right">
-            <img src="images/gaming-msi-header.png">
-          </div>
+      <div class="bg-header-container">
+        <div class="cont980 bg-header">
+          <br />
+          <p style="font-size: 20px; text-align: right">
+            Uma Sociedade mais segura para todos é o resultado das ações de cada
+            um.
+          </p>
         </div>
+        <div class="additional-bg-yellow"></div>
       </div>
     </header>
-
-    <!-- Main Content -->
-     <main>
-      <div class="gray-background">
-        <div class="page-inner-content">
-          <div class="cols cols-3">
-            <img src="images/products/product-1.png">
-            <img src="images/products/product-2.png">
-            <img src="images/products/product-3.png">
-          </div>
-        </div>
+    <div
+      style="
+        width: 80%;
+        height: 15%;
+        margin: auto;
+        display: flex;
+        flex-wrap: nowrap;
+      "
+    >
+      <div style="width: 45%">
+        <p style="font-weight: bold; font-size: 30px; text-align: justify">
+          Olá
+          <?php echo $_GET['nome']; ?>, <br />você acaba de ser "fisgado" por um
+          treinamento voltado a práticas de phishing para segurança da
+          informação.
+        </p>
+        <p style="font-weight: bold; font-size: 30px; text-align: justify">
+          <br />Por motivos de segurança você será obrigado(a) a trocar sua
+          senha na próxima vez que se autenticar.
+        </p>
+        <br />
+        <p style="font-size: 22px; text-align: justify">
+          Você acabou de clicar em um link inseguro e inseriu seus dados de
+          acesso. Isto pode colocar a empresa em risco. Vamos relembrar algumas
+          informações da nossa Política de Segurança da Informação e suas Normas
+          complementares?
+        </p>
       </div>
-
-      <div>
-        <div class="page-inner-content">
-          <h3 class="section-title">Produtos Selecionados</h3>
-          <div class="subtitle-underline"></div>
-          <div class="cols cols-4">
-            <div class="product">
-              <img src="images/products/product-4.png">
-                <p class="product-name">Kit Gamer Periféricos Completo Teclado Mouse e Headset Gamer - EVOLUT</p>
-                <p class="rate">&#9733&#9733&#9733&#9733&#9734</p>
-                <p class="product-price"><span>R$</span> 195,06 </p>
-            </div>
-
-            <div class="product">
-              <img src="images/products/product-5.png">
-                <p class="product-name">Placa de Vídeo GTX 1650 D6 Ventus XS OCV3 MSI NVIDIA GeForce, 4GB GDDR6, G- Sync - 912-V812-003</p>
-                <p class="rate">&#9733&#9733&#9733&#9733&#9734</p>
-                <p class="product-price"><span>R$</span> 952,93 </p>
-            </div>
-
-            <div class="product">
-              <img src="images/products/product-6.png">
-                <p class="product-name">Controle Sony DualSense PS5, Sem Fio, Branco - 3005767</p>
-                <p class="rate">&#9733&#9733&#9733&#9733&#9734</p>
-                <p class="product-price"><span>R$</span> 449,90</p>
-            </div>
-
-            <div class="product">
-              <img src="images/products/product-7.png">
-                <p class="product-name">Cadeira Gamer Otello Preto e Vermelho</p>
-                <p class="rate">&#9733&#9733&#9733&#9733&#9734</p>
-                <p class="product-price"><span>R$</span> 722,75 </p>
-            </div>
-          </div>
-        </div>
-
-        <div class="page-inner-content">
-          <h3 class="section-title">Ultimos Produtos</h3>
-          <div class="subtitle-underline"></div>
-          <div class="cols cols-4">
-            <div class="product">
-              <img src="images/products/product-8.png">
-                <p class="product-name">Apple iPhone 14 Pro 512GB Roxo-profundo</p>
-                <p class="rate">&#9733&#9733&#9733&#9733&#9734</p>
-                <p class="product-price"><span>R$</span> 8.328,06 </p>
-            </div>
-
-            <div class="product">
-              <img src="images/products/product-9.png">
-                <p class="product-name">Samsung Galaxy S23 Ultra</p>
-                <p class="rate">&#9733&#9733&#9733&#9733&#9733</p>
-                <p class="product-price"><span>R$</span> 4.499,00 </p>
-            </div>
-
-            <div class="product">
-              <img src="images/products/product-10.png">
-                <p class="product-name">Smartphone Asus Rog Phone 5s Pro 18gb/ 512gb Preto</p>
-                <p class="rate">&#9733&#9733&#9733&#9733&#9733</p>
-                <p class="product-price"><span>R$</span> 9.999,00 </p>
-            </div>
-
-            <div class="product">
-              <img src="images/products/product-11.png">
-                <p class="product-name">Xiaomi 12S Ultra</p>
-                <p class="rate">&#9733&#9733&#9733&#9733&#9734</p>
-                <p class="product-price"><span>R$</span> 5.227,00 </p>
-            </div>
-            <div class="product">
-              <img src="images/products/product-12.png">
-                <p class="product-name">Console Microsoft Xbox Series X 1tb Novo Xbox Series</p>
-                <p class="rate">&#9733&#9733&#9733&#9733&#9734</p>
-                <p class="product-price"><span>R$</span> 4.199,00 </p>
-            </div>
-
-            <div class="product">
-              <img src="images/products/product-13.png">
-                <p class="product-name">Thrustmaster T80 Ferrari 488 GTB Edition Racing Wheel PS4</p>
-                <p class="rate">&#9733&#9733&#9733&#9734&#9734</p>
-                <p class="product-price"><span>R$</span> 1.718,00 </p>
-            </div>
-
-            <div class="product">
-              <img src="images/products/product-14.png">
-                <p class="product-name">Console Playstation 5 Ps5 Standard 2 Controles Dualsense - Sony</p>
-                <p class="rate">&#9733&#9733&#9733&#9733&#9734</p>
-                <p class="product-price"><span>R$</span> 5.599,00 </p>
-            </div>
-
-            <div class="product">
-              <img src="images/products/product-15.png">
-                <p class="product-name">GIGABYTE AORUS Project Stealth DIY PC Kit (Z690 AORUS Elite Stealth, NVIDIA GeForce RTX 3070 Gaming OC 8G Stealth, AORUS C300G Stealth) - GB-Stealth Combo IN2181</p>
-                <p class="rate">&#9733&#9733&#9733&#9733&#9734</p>
-                <p class="product-price"><span>R$</span> 4.126,00 </p>
-            </div>
-          </div>
-        </div>
+      <div style="width: 55%" class="centralizado">
+        <img src="Phis1.jpg" style="width: 80%; height: 80%" />
       </div>
+    </div>
+    <br />
 
-      <div class="gray-background">
-        <div class="header-inner-content">
-          <div class="header-bottom-side exclusive-container">
-            <div class="header-bottom-side-left">
-              <h2>Smart Band 4</h2>
-              <p>
-                O Mi Smart Band 4 tem uma tela AMOLED 39.9% maior que o Mi Smart Band 3, tela completamente digital com brilho ajustável, de tal modo que tudo é claro ao máximo.
-              </p>
-              <button>Ver Agora &#8594</button>
-            </div>
-            <div class="header-bottom-sider-right">
-              <img src="images/exclusive.png">
-            </div>
-          </div>
-        </div>
+    <div style="width: 80%; height: 15%; margin: auto">
+      <p style="font-size: 30px; text-align: center">O que é Phishing?</p>
+      <p style="font-size: 20px; text-align: justify">
+        Podemos definir “Phishing” como uma técnica utilizada por
+        cibercriminosos para enganar você, induzindo-o a revelar informações
+        pessoais, como senhas, dados de cartão de crédito, CPF ou até número de
+        contas bancárias. Eles fazem isso enviando e-mails ou direcionando você
+        a websites falsos.
+      </p>
+      <p style="font-size: 20px; text-align: justify">
+        As mensagens de Phishing procuram parecer legítimas, como se tivessem
+        sido mesmo enviadas pela empresa usada como tema. Um exemplo muito
+        utilizado são mensagens de mídias sociais como Facebook ou Instagram. O
+        Google também não escapa, além de agências do governo ou do seu banco.
+        Os e-mails pedem de forma educada por atualizações, validação ou
+        confirmação de informações da sua conta, sempre dizendo que houve algum
+        problema. Você é então redirecionado a um site falso e induzido a
+        apresentar informações sobre a sua conta, que podem resultar em roubos
+        de identidade.
+      </p>
+      <p style="font-size: 20px; text-align: justify">
+        A poucas semanas a Cyxtera, empresa de segurança digital especializada
+        em fraudes eletrônicas, afirmou que
+        <strong>cerca de 90% dos ataques</strong> começam com algum tipo de
+        campanha de phishing (<a
+          href="https://www.techtudo.com.br/noticias/2019/07/phishing-conheca-o-golpe-que-causa-90percent-dos-roubos-na-internet.ghtml"
+          >fonte</a
+        >). As formas mais comuns são campanhas por e-mail e podem atingir tanto
+        grandes redes de usuários, como funcionários de empresas ou consumidores
+        de um aplicativo, quanto indivíduos específicos.
+      </p>
+    </div>
+    <div
+      style="
+        width: 80%;
+        height: 15%;
+        margin: auto;
+        font-size: 30px;
+        text-align: center;
+      "
+    >
+      Como se proteger
+    </div>
+    <div
+      style="
+        background: #333;
+        width: 80%;
+        margin: auto;
+        -moz-border-radius: 7px;
+        -webkit-border-radius: 7px;
+        border-radius: 7px;
+      "
+    >
+      <ul style="color: #ffffff; font-size: 20px">
+        <li style="line-height: 2.2em">
+          Pratique um comportamento seguro, não responda e-mails de remetentes
+          não solicitados;
+        </li>
+        <li style="line-height: 2.2em">
+          O mesmo vale para as redes sociais. Facebook, Instagram, WhatsApp por
+          exemplo, são canais bastante utilizados por cibercriminosos para
+          enganar as pessoas;
+        </li>
+        <li style="line-height: 2.2em">
+          Não abra anexos de e-mails enviados por quem você não conhece;
+        </li>
+        <li style="line-height: 2.2em">
+          Proteja suas senhas, não as revele a ninguém. Lembre-se, suas
+          credenciais são pessoais e não devem ser compartilhadas com terceiros;
+        </li>
+        <li style="line-height: 2.2em">
+          Cuidado com Engenharia Social. Não forneça informações consideradas
+          internas ou confidenciais a ninguém. Atente-se a golpes em ligações
+          telefônicas, ou até mesmo em conversas pessoais em locais públicos;
+        </li>
+        <li style="line-height: 2.2em">
+          Sempre que receber um e-mail com links, pare o mouse sobre o link e
+          verifique o que é mostrado na parte inferior da tela. As vezes o link
+          apresentado pode visualmente ser conhecido mas o endereço real leva-lo
+          a cair em uma armadilha;
+        </li>
+        <li style="line-height: 2.2em">Atente-se para erros de grafia;</li>
+        <li style="line-height: 2.2em">
+          Em alguns casos o remetente para tentar enganá-lo usa um domínio
+          próximo ao oficial. Ex. www.lamoda.com.net ao invés de
+          www.lamoda.com.br .
+        </li>
+      </ul>
+    </div>
+    <div style="width: 80%; height: 15%; margin: auto">
+      <p style="font-size: 30px; text-align: center">Você faz parte do time</p>
+      <p style="font-size: 20px; text-align: justify">
+        A Segurança da Informação deve ser praticada e fazer parte do seu
+        dia-a-dia. Dê o exemplo, ensine, dissemine e nos ajude a proteger nossa
+        história.
+      </p>
+      <p style="font-size: 20px; text-align: justify">
+        Esteja sempre atualizado com a nossa Política e Normas de Segurança da
+        Informação. Em caso de dúvidas, suspeita de ocorrência de incidentes ou
+        sua constatação, não deixe de contatar o Setor de Segurança da
+        Informação da Lamoda através do e-mail
+        <span style="color: blue">email@lamoda.com.br</span>. Reporte
+        imediatamente para que as medidas necessárias possam ser tomadas o mais
+        rápido possível.
+      </p>
+      <p style="font-size: 20px; text-align: justify">
+        A Política de Segurança da Informação e suas Normas Complementares estão
+        disponíveis em:
+        <span style="color: blue"
+          ><a
+            href="https://conexao.lamoda.com.br/trabalho-cotidiano/documentos/"
+            >https://conexao.lamoda.com.br/trabalho-cotidiano/documentos/</a
+          ></span
+        >
+        e podem ser acessadas de qualquer estação de trabalho dentro e fora da
+        Rede Lamoda.
+      </p>
+    </div>
+
+    <div style="margin: auto; width: 80%; height: 700px" border="0"></div>
+    <br />
+    <div style="width: 80%; margin: auto">
+      <form action="envia_email.php" method="post">
+        <textarea
+          name="formulario"
+          id="formulario"
+          style="
+            height: 100px;
+            width: 100%;
+            border: 2px solid #145a8d;
+            border-radius: 8px;
+          "
+          placeholder="Nos explique com suas palavras, o que te levou a clicar no Link e colocar suas credenciais."
+        ></textarea>
+        <br />
+        <input
+          name="usuario"
+          id="usuario"
+          type="hidden"
+          value="<?php echo $_GET['usuario'] ?>"
+        /><input type="submit" class="button" value="Enviar" />
+      </form>
+    </div>
+    <br /><br />
+    <br /><br />
+    <div class="bg-header-container">
+      <div class="cont980 bg-header">
+        <br />
+        <p style="font-size: 20px; text-align: right">
+          Uma Sociedade mais segura para todos é o resultado das ações de cada
+          um.
+        </p>
       </div>
-
-      <div>
-        <div class="page-inner-content">
-          <div class="testimonials">
-            <div class="testimonial">
-              <p>"</p>
-              <p>
-                O melhor website ecommerce moderno e responsivo, vou compartilhar o video com maior número de pessoas que eu conseguir para ajudar o canal a crescer.                
-              </p>
-              <p class="rate">&#9733&#9733&#9733&#9733&#9734</p>
-              <p>Anonimo 1</p>
-            </div>
-
-            <div class="testimonial">
-              <p>"</p>
-              <p>O melhor website ecommerce moderno e responsivo, vou compartilhar o video com maior número de pessoas que eu conseguir para ajudar o canal a crescer.                
-              </p>
-              <p class="rate">&#9733&#9733&#9733&#9733&#9734</p>
-              <p>Anonimo 2</p>
-            </div>
-
-            <div class="testimonial">
-              <p>"</p>
-              <p>O melhor website ecommerce moderno e responsivo, vou compartilhar o video com maior número de pessoas que eu conseguir para ajudar o canal a crescer.                
-              </p>
-              <p class="rate">&#9733&#9733&#9733&#9733&#9734</p>
-              <p>Anonimo 3</p>
-            </div>
-          </div>
-        </div>
-      </div>
-     </main>
-
-     <footer class="gray-background">
-      <div class="page-inner-content footer-content">
-        <div class="download-options">
-          <p>Baixe nosso aplicativo!</p>
-          <p>Baixe nosso aplicativo parar Android e iOS</p>
-          <div>
-            <img src="images/app-store.png">
-            <img src="images/play-store.png">
-          </div>
-        </div>
-
-        <div class="logo-footer">
-          <h1 class="logo">BLUE<span>STORE</span></h1>
-          <p>Nosso objetivo é ajduar as pessoas comuns a se tornarem desenvolvedores web pro max</p>
-        </div>
-
-        <div class="links-footer">
-          <h3>Links úteis</h3>
-          <ul>
-            <li>Cupons</li>
-            <li>Blog Post</li>
-            <li>Políticas</li>
-            <li>Torne-se membro</li>
-          </ul>
-        </div>
-      </div>
-
-      <hr class="page-inner-content" />
-
-      <div class="page-inner-content copyright">
-        <p>Copyright 2024 - Anonimo - Todos Direitos Reservados</p>
-      </div>
-     </footer>
-
-    <script>
-      const navbar = document.querySelector(".navbar");
-      const menuButton = document.querySelector(".menu-button");
-
-      menuButton.addEventListener("click", () => {
-        navbar.classList.toggle("show-menu");
-      })
-    </script>
+      <div class="additional-bg-yellow"></div>
+    </div>
   </body>
 </html>
